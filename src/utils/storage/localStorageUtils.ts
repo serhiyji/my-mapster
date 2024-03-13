@@ -1,4 +1,4 @@
-import {IBasketState} from "../../interfaces/basket/indes.ts";
+import {IBasketState} from "../../interfaces/basket";
 
 export const addLocalStorage = (keyStorage: string, value: IBasketState | string): void => {
     localStorage.setItem(keyStorage, JSON.stringify(value));

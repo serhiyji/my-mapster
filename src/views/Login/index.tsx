@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, Image, Divider, Flex, Form, Input, Row, Typography, message, Spin} from 'antd';
 import logo from '../../assets/login.png';
 import {ILogin} from '../../interfaces/account';
-import {useAppDispatch, useAppSelector} from '../../hooks/redux/indes.ts';
+import {useAppDispatch, useAppSelector} from '../../hooks/redux';
 import {login} from '../../store/accounts/accounts.actions.ts';
 import {Link, useNavigate} from 'react-router-dom';
 import {unwrapResult} from '@reduxjs/toolkit';
